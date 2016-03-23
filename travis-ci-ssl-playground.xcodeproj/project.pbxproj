@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE6C6171CA2D45E002B438A /* travis_ci_ssl_playground.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8CE6C6161CA2D45E002B438A /* travis_ci_ssl_playground.h */; };
+		8CE6C6191CA2D45E002B438A /* travis_ci_ssl_playground.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6C6181CA2D45E002B438A /* travis_ci_ssl_playground.m */; };
+		8CE6C6261CA2D480002B438A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6C6251CA2D480002B438A /* Tests.m */; };
+		8CE6C6281CA2D480002B438A /* libtravis-ci-ssl-playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE6C6131CA2D45E002B438A /* libtravis-ci-ssl-playground.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE6C6291CA2D480002B438A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE6C60B1CA2D45D002B438A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE6C6121CA2D45D002B438A;
+			remoteInfo = "travis-ci-ssl-playground";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CE6C6111CA2D45D002B438A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8CE6C6171CA2D45E002B438A /* travis_ci_ssl_playground.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8CE6C6131CA2D45E002B438A /* libtravis-ci-ssl-playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtravis-ci-ssl-playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE6C6161CA2D45E002B438A /* travis_ci_ssl_playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = travis_ci_ssl_playground.h; sourceTree = "<group>"; };
+		8CE6C6181CA2D45E002B438A /* travis_ci_ssl_playground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travis_ci_ssl_playground.m; sourceTree = "<group>"; };
+		8CE6C6231CA2D480002B438A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE6C6251CA2D480002B438A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		8CE6C6271CA2D480002B438A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE6C6101CA2D45D002B438A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE6C6201CA2D480002B438A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE6C6281CA2D480002B438A /* libtravis-ci-ssl-playground.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE6C60A1CA2D45D002B438A = {
+			isa = PBXGroup;
+			children = (
+				8CE6C6151CA2D45E002B438A /* travis-ci-ssl-playground */,
+				8CE6C6241CA2D480002B438A /* Tests */,
+				8CE6C6141CA2D45E002B438A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE6C6141CA2D45E002B438A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6C6131CA2D45E002B438A /* libtravis-ci-ssl-playground.a */,
+				8CE6C6231CA2D480002B438A /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE6C6151CA2D45E002B438A /* travis-ci-ssl-playground */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6C6161CA2D45E002B438A /* travis_ci_ssl_playground.h */,
+				8CE6C6181CA2D45E002B438A /* travis_ci_ssl_playground.m */,
+			);
+			path = "travis-ci-ssl-playground";
+			sourceTree = "<group>";
+		};
+		8CE6C6241CA2D480002B438A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE6C6251CA2D480002B438A /* Tests.m */,
+				8CE6C6271CA2D480002B438A /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE6C6121CA2D45D002B438A /* travis-ci-ssl-playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE6C61C1CA2D45E002B438A /* Build configuration list for PBXNativeTarget "travis-ci-ssl-playground" */;
+			buildPhases = (
+				8CE6C60F1CA2D45D002B438A /* Sources */,
+				8CE6C6101CA2D45D002B438A /* Frameworks */,
+				8CE6C6111CA2D45D002B438A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "travis-ci-ssl-playground";
+			productName = "travis-ci-ssl-playground";
+			productReference = 8CE6C6131CA2D45E002B438A /* libtravis-ci-ssl-playground.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8CE6C6221CA2D480002B438A /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE6C62B1CA2D480002B438A /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				8CE6C61F1CA2D480002B438A /* Sources */,
+				8CE6C6201CA2D480002B438A /* Frameworks */,
+				8CE6C6211CA2D480002B438A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE6C62A1CA2D480002B438A /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 8CE6C6231CA2D480002B438A /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE6C60B1CA2D45D002B438A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dominic Jodoin";
+				TargetAttributes = {
+					8CE6C6121CA2D45D002B438A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 95WAR6BQ6H;
+					};
+					8CE6C6221CA2D480002B438A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 95WAR6BQ6H;
+					};
+				};
+			};
+			buildConfigurationList = 8CE6C60E1CA2D45D002B438A /* Build configuration list for PBXProject "travis-ci-ssl-playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CE6C60A1CA2D45D002B438A;
+			productRefGroup = 8CE6C6141CA2D45E002B438A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE6C6121CA2D45D002B438A /* travis-ci-ssl-playground */,
+				8CE6C6221CA2D480002B438A /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE6C6211CA2D480002B438A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE6C60F1CA2D45D002B438A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE6C6191CA2D45E002B438A /* travis_ci_ssl_playground.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE6C61F1CA2D480002B438A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE6C6261CA2D480002B438A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE6C62A1CA2D480002B438A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE6C6121CA2D45D002B438A /* travis-ci-ssl-playground */;
+			targetProxy = 8CE6C6291CA2D480002B438A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CE6C61A1CA2D45E002B438A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CE6C61B1CA2D45E002B438A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE6C61D1CA2D45E002B438A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8CE6C61E1CA2D45E002B438A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8CE6C62C1CA2D480002B438A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE6C62D1CA2D480002B438A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE6C60E1CA2D45D002B438A /* Build configuration list for PBXProject "travis-ci-ssl-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE6C61A1CA2D45E002B438A /* Debug */,
+				8CE6C61B1CA2D45E002B438A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE6C61C1CA2D45E002B438A /* Build configuration list for PBXNativeTarget "travis-ci-ssl-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE6C61D1CA2D45E002B438A /* Debug */,
+				8CE6C61E1CA2D45E002B438A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CE6C62B1CA2D480002B438A /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE6C62C1CA2D480002B438A /* Debug */,
+				8CE6C62D1CA2D480002B438A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE6C60B1CA2D45D002B438A /* Project object */;
+}
